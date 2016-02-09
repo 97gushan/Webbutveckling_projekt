@@ -1,5 +1,5 @@
 body{
-    background: lightgrey
+    background: #727272;
 
 }
 
@@ -9,7 +9,7 @@ body{
 }
 
 .navbar-toggle{
-    background: blue;
+    background: #4177ff;
 }
 
 .icon-bar{
@@ -19,7 +19,7 @@ body{
 .navbar_logo{
     max-width: 400px;
     min-width: 200px;
-    width:30%;
+    width:20%;
     height: auto;
 }
 
@@ -27,13 +27,26 @@ body{
     color: black;
 }
 
-div.navbar div.collapse ul li a{
-    color: black;
-    padding: 20px 20px;
-    border-radius: 5px;
-    margin-top: 5px;
+
+div.navbar div.collapse ul li a.active{
+    background: orange;
 }
 
-div.navbar div.collapse ul li a:hover{
+div.navbar div.collapse ul li a{
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 2px;
+    background: #4177ff;
+    font-weight: bolder;
+}
+
+div.navbar div.collapse ul li a:hover {
     background: orange;
+}
+
+.dropdown-menu{
+    background: rgba(0,0,0,0.0);
+    border: none;
 }
