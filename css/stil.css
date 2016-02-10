@@ -3,6 +3,7 @@ body{
 
 }
 
+/******** NAVBAR *************/
 .navbar{
     height: 5%;
     background: rgba(0,0,0,0.0);
@@ -10,10 +11,12 @@ body{
 
 .navbar-toggle{
     background: #4177ff;
+    color:black;
 }
 
 .icon-bar{
     color: black;
+    background: black;
 }
 
 .navbar_logo{
@@ -21,6 +24,7 @@ body{
     min-width: 200px;
     width:20%;
     height: auto;
+
 }
 
 .navbar-nav .nav{
@@ -49,4 +53,79 @@ div.navbar div.collapse ul li a:hover {
 .dropdown-menu{
     background: rgba(0,0,0,0.0);
     border: none;
+}
+/*******************************************************/
+
+
+/************ shortcut to blogg ************/
+.blogg_shortcut{
+    background-color: #464646;
+    color: black;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.blogg_image{
+    width: 100%;
+    border: 1px solid #4177ff;
+}
+
+.blogg_element{
+    display: block;
+    color:black;
+
+}
+
+div.row a:hover{
+    color: #575757;
+    text-decoration: none;
+}
+
+/********************************************************/
+
+
+/************* main content **************************/
+.main_container{
+    background: #464646;
+    margin-top: 5%;
+    color: black;
+}
+
+.main_header{
+    color: #4177ff;
+    font-size: 40px;
+}
+
+.main_element_left{
+    width: 50%;
+    float:left;
+}
+
+.main_element_right{
+    width: 50%;
+    float:right;
+    padding-left: 10px;
+}
+
+.main_element_header{
+    color: orange;
+}
+
+.main_element_content{
+
+}
+
+.main_element_img_left{
+    width:50%;
+    float:left;
+    padding-left: 10px;
+
+}
+
+.main_element_img_right{
+    width:50%;
+    float:right;
+}
+.clear{
+    clear:both;
 }
