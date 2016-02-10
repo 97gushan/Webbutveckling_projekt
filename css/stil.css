@@ -16,7 +16,7 @@ body{
 
 .icon-bar{
     color: black;
-    background: black;
+    background: #464646;
 }
 
 .navbar_logo{
@@ -33,7 +33,7 @@ body{
 
 
 div.navbar div.collapse ul li a.active{
-    background: orange;
+    background: #ffa800;
 }
 
 div.navbar div.collapse ul li a{
@@ -47,7 +47,7 @@ div.navbar div.collapse ul li a{
 }
 
 div.navbar div.collapse ul li a:hover {
-    background: orange;
+    background: #ffa800;
 }
 
 .dropdown-menu{
@@ -63,6 +63,8 @@ div.navbar div.collapse ul li a:hover {
     color: black;
     margin-top: 5%;
     padding: 10px;
+    border: 1px solid #a87124;
+
 }
 
 .blogg_image{
@@ -89,6 +91,7 @@ div.row a:hover{
     background: #464646;
     margin-top: 5%;
     color: black;
+    border: 1px solid #a87124;
 }
 
 .main_header{
@@ -108,7 +111,7 @@ div.row a:hover{
 }
 
 .main_element_header{
-    color: orange;
+    color: #ffa800;
 }
 
 .main_element_content{
@@ -128,4 +131,27 @@ div.row a:hover{
 }
 .clear{
     clear:both;
+}
+
+
+/**************************************************/
+
+/*************** FOOTER ***************************/
+.footer_container{
+    background: #464646;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid #a87124;
+}
+
+.footer_header{
+    color: #ffa800;
+}
+
+.footer_element{
+    background: #4d4d4d;
+}
+
+.copyright{
+    color: #1856f1;
 }
