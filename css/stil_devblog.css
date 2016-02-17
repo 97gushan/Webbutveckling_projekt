@@ -3,6 +3,15 @@ body{
 
 }
 
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
 /******** NAVBAR *************/
 .navbar{
     height: 5%;
@@ -54,91 +63,52 @@ div.navbar div.collapse ul li a:hover {
     background: rgba(0,0,0,0.0);
     border: none;
 }
-
-
 /*******************************************************/
 
+/*************** main content *********************/
 
-/************ shortcut to blogg ************/
-.blogg_shortcut{
-    background-color: #464646;
-    color: black;
-    margin-top: 5%;
-    padding: 10px;
-    border: 1px solid #a87124;
-
-}
-
-.blogg_image{
-    width: 100%;
-    border: 1px solid #4177ff;
-}
-
-.blogg_element{
-    display: block;
-    color:black;
-
-}
-
-div.row a:hover{
-    color: #575757;
-    text-decoration: none;
-}
-
-/********************************************************/
-
-
-/************* main content **************************/
 .main_container{
     background: #464646;
-    margin-top: 5%;
-    color: black;
     border: 1px solid #a87124;
+    color: black;
+    padding-bottom: 10px;
 }
 
 .main_header{
-    color: #4177ff;
-    font-size: 40px;
+  color: #4177ff;
+  font-size: 40px;
 }
 
-.main_element_left{
-    width: 50%;
-    float:left;
-    padding-right: 10px;
+.element{
+    margin: 5px 10px;
+
 }
 
-.main_element_right{
-    width: 50%;
-    float:right;
-    padding-left: 10px;
-}
-
-.main_element_header{
+.blog_element_header{
     color: #ffa800;
+    padding-left: 5px;
 }
 
-.main_element_content{
-
-}
-
-.main_element_img_left{
-    width:50%;
-    float:left;
-    border: 1px solid #4177ff;
+.blog_img{
+  width: 50%;
+  float: right;
+  border: 1px solid #4177ff;
 
 }
 
-.main_element_img_right{
-    width:50%;
-    float:right;
-    border: 1px solid #4177ff;
+.blog_element{
+    width: 50%;
+    float: right;
+    padding-right: 5px;
+
+
 }
+
 .clear{
-    clear:both;
+   clear: both;
 }
 
-
-/**************************************************/
+/*******************************************************/
 
 /*************** FOOTER ***************************/
 .footer_container{
@@ -166,6 +136,7 @@ div.row a:hover{
     background: #313131;
     padding: 5px 5px;
     border-radius: 5px;
+
 }
 
 .test{
