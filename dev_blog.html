@@ -9,6 +9,8 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/stil_devblog.css">
+
+        <script src="js/main.js"></script>
     </head>
 
     <body>
@@ -37,7 +39,7 @@
                                   <li><a href="https://www.youtube.com">Youtube</a></li>
                               </ul>
                         </li>
-                        <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                        <li><a href="#newsletter" data-toggle="modal" data-target="#modal">Newsletter</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,6 +47,25 @@
 
         <!-- ******************************* -->
 
+        <!-- - - - - - - - Modal - - - - - - -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title">Newsletter</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Sign up for our newsletter!</p>
+                        <input id="mail" class="field" type="text" name="mail" placeholder="Write your E-mail" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default close_btn" data-dismiss="modal">Close</button>
+                        <button type="button" onclick="sign_up()" class="btn btn-primary sign_btn">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- main content -->
 
@@ -54,7 +75,7 @@
             <div class="row">
                 <a name="level_design"><div class="cold-md-12 element" >
                     <h2 class="blog_element_header">Level design</h2>
-                    <img class="blog_img" src="img/img_1.png"/>
+                    <img class="blog_img" src="img/level_design.png"/>
                     <p class="blog_element">
                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>
@@ -64,7 +85,7 @@
 
                 <a name="movement"><div class="cold-md-12 element">
                     <h2 class="blog_element_header">Basic movement and physics</h2>
-                    <img class="blog_img" src="img/img_1.png"/>
+                    <img class="blog_img" src="img/physics.png"/>
                     <p class="blog_element">
                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>
@@ -75,7 +96,7 @@
 
                 <a name="portals"><div class="cold-md-12 element">
                     <h2 class="blog_element_header">Pörtal... now with more portals</h2>
-                    <img class="blog_img" src="img/img_1.png"/>
+                    <img class="blog_img" src="img/more_portals.png"/>
                     <p class="blog_element">
                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
                     </p>

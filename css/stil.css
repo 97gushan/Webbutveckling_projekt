@@ -58,6 +58,52 @@ div.navbar div.collapse ul li a:hover {
 
 /*******************************************************/
 
+/************ modal/newsletter window ************************/
+div.modal{
+    background: rgba(0,0,0,0.5);
+}
+
+div.modal-dialog div.modal-content{
+    background: #979797;
+}
+
+div.modal-header, div.modal-footer, div.modal-content{
+    border-color: #a87124;
+
+}
+
+div.modal-header h2.modal-title{
+    color: #1647c4;
+}
+
+div.modal-body{
+    border-color: blue;
+}
+
+div.modal-footer{
+
+}
+
+button.close_btn{
+    background: #ffa800;
+    border-color:#a87124;
+    color: black;
+
+}
+
+button.close_btn:hover{
+    background: #a16a01;
+}
+
+button.sign_btn{
+    background: #4177ff;
+    border-color: #0430a0;
+    color: black;
+}
+
+button.sign_btn:hover{
+    color: black
+}
 
 /************ shortcut to blogg ************/
 .blogg_shortcut{
@@ -99,6 +145,7 @@ div.row a:hover{
 .main_header{
     color: #4177ff;
     font-size: 40px;
+    border-bottom: 2px solid #0430a0;
 }
 
 .main_element_left{
@@ -166,6 +213,8 @@ div.row a:hover{
     background: #313131;
     padding: 5px 5px;
     border-radius: 5px;
+    border: 1px solid #8b5d1c;
+
 }
 
 .test{
